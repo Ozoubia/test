@@ -1,7 +1,6 @@
 # Implement a simple "Consumer Pull" Http transfer flow between (host - VM)
 
-This Example builds upon [Consumer Pull Http transfer flow](https://github.com/Think-iT-Labs/EDC-Samples/tree/feature%231580_create_samples_for_the_HttpData_proxy_flow/transfer/transfer-06-consumer-pull-http) in which the data transfer in that example was locally on the same machine, while in this example the transfer happens between two machines (a host machine and a Virtual machine)
-To demonstrate the functionality, as well building a simple API in the provider side to serve the data which is located in the provider machine (only tested with 1 file for the sake of simplicity). 
+In this example, we're expanding on the [Consumer Pull Http transfer flow](https://github.com/Think-iT-Labs/EDC-Samples/tree/feature%231580_create_samples_for_the_HttpData_proxy_flow/transfer/transfer-06-consumer-pull-http), which involved transferring data locally on a single machine. However, in this case, we're transferring data between two machines, a host machine and a virtual machine. In addition, we've created a simple API on the provider side to serve the data, which is stored on the provider machine. We've kept things straightforward by testing with only one file for simplicity.
 
 
 The sample code is contains the following parts:
