@@ -38,3 +38,8 @@ encounter this in a real-world scenario. So now we'll move on to a more complex 
 transferred not in the local file system, but between two different cloud providers. In this sample you will set up
 a provider that offers a file located in an `Azure Blob Storage`, and a consumer that requests to transfer this file
 to an `AWS S3 bucket`. Terraform is used for creating all required cloud resources.
+
+### [Transfer sample 07](./transfer-07-consumer-pull-http-Vm/README.md): Perform a Consumer and provider pull exchange in Virtual machines 
+
+This sample demonstrates a consumer pull exchange between a consumer and a provider, both running on different machines (host and a Vm). only one file is tested in this example for the sake of simplicity; which is served by a backend API in the provider side.
+after the successful communication between the participants. the consumer can pull and receive the data.
